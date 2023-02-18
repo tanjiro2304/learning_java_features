@@ -1,4 +1,4 @@
-package learing_new_features;
+package learning_new_features;
 
 import java.util.List;
 import java.util.function.Predicate;
@@ -21,6 +21,8 @@ public class PredicateNotRunner {
 		System.out.println("Odd Number using Predicate...");
 		numbers.stream().filter(evenNumberPredicate.negate()).forEach(System.out::println);
 		
+		//You can use negate() with methods
+		//You have to use not() instead
 		System.out.println("Odd Number using Predicate.not()...");
 		numbers.stream().filter(Predicate.not(PredicateNotRunner::isEven)).forEach(System.out::println);
 		

@@ -1,4 +1,4 @@
-package learing_new_features;
+package learning_new_features;
 
 import java.util.ArrayList;
 import java.util.List;
